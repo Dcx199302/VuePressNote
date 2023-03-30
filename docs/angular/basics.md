@@ -29,7 +29,7 @@ export class AppComponent {
 
 ```html
 <!-- 正确例子 -->
-<div v-pre>
+<div>
   <p>{{name}}</p>
   <p>{{name + "你好啊"}}</p>
   <p>{{name?"张三":"李四"}}</p>
@@ -40,7 +40,7 @@ export class AppComponent {
 <!-- 错误例子 -->
 <p>{{ new Date() }}</p>
 //报错
-<p v-pre>{{ if(...){ ... } }}</p>
+<p>{{ if(...){ ... } }}</p>
 //报错
 ```
 

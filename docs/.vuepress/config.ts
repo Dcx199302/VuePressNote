@@ -1,5 +1,6 @@
 import { defaultTheme, defineUserConfig } from "vuepress";
-import { angular_route } from "../.vuepress/routers/angular";
+import { angular_route, angular_sidebar } from "../.vuepress/routers/angular";
+import { backend_route, backend_sidebar } from "./routers/backend";
 
 export default defineUserConfig({
   lang: "zh-CN",
@@ -21,6 +22,10 @@ export default defineUserConfig({
       {
         text: "angular",
         children: angular_route,
+      },
+      {
+        text: "BackEnd",
+        children: backend_route,
       },
       // 控制元素何时被激活
       {
@@ -75,28 +80,8 @@ export default defineUserConfig({
       },
     ],
     sidebar: {
-      "/angular/": [
-        {
-          text: "項目實戰",
-          children: ["comprehend.md", "introduction.md"],
-        },
-        {
-          text: "項目實戰",
-          children: ["comprehend.md", "introduction.md"],
-        },
-      ],
-      "/nest/": [
-        {
-          text: "項目實戰",
-          children: ["config.md"],
-        },
-      ],
-      "/rxjs/": [
-        {
-          text: "rxjs1",
-          children: ["rxjs.md"],
-        },
-      ],
+      ...angular_sidebar,
+      ...backend_sidebar,
     },
   }),
 });

@@ -160,9 +160,13 @@ if/else  渲染指定的Temlpate模板
 
 #### **管道pipe**
 
+```typescript
 - {{ 输入数据 | 管道: 管道参数 }}
 - 链式管道 {{ 数据 | A | B }} 先执行A 管道 --> B管道
 - {{date | date: 'fullDate' | uppercase}}
+```
+
+
 
 ```html
 <div>{{dateTime | data:'yyyy-mm-dd HH:mm:ss'}}</div>  //时间格式2021-09-12 15:19:00
