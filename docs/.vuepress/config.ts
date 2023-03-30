@@ -1,4 +1,5 @@
 import { defaultTheme, defineUserConfig } from "vuepress";
+import { angular_route } from "../.vuepress/routers/angular";
 
 export default defineUserConfig({
   lang: "zh-CN",
@@ -19,46 +20,15 @@ export default defineUserConfig({
       // 嵌套 Group - 最大深度为 2
       {
         text: "angular",
-        children: [
-          {
-            text: "angular入門",
-            children: [
-              {
-                text: "创建项目",
-                link: "/angular/introduction.md",
-              },
-              {
-                text: "理解angular",
-                link: "/angular/comprehend.md",
-              },
-              {
-                text: "CLI工具",
-                link: "/angular/cli.md",
-              },
-            ],
-          },
-          {
-            text: "angular入門",
-            children: [
-              {
-                text: "创建项目",
-                link: "/angular/introduction.md",
-              },
-              {
-                text: "理解angular",
-                link: "/angular/comprehend.md",
-              },
-            ],
-          },
-        ],
+        children: angular_route,
       },
       // 控制元素何时被激活
       {
         text: "nestJS",
         children: [
           {
-            text: "Always active",
-            link: "/",
+            text: "环境配置",
+            link: "nest/config",
             // 该元素将一直处于激活状态
             activeMatch: "/",
           },
@@ -87,8 +57,21 @@ export default defineUserConfig({
         ],
       },
       {
-        text: "React",
-        children: [],
+        text: "rxjs",
+        children: [
+          {
+            text: "rxjs",
+            link: "/rxjs/rxjs.md",
+          },
+          {
+            text: "rxjs_operator",
+            link: "/rxjs/rxjs_operator.md",
+          },
+          {
+            text: "rxjs",
+            link: "/rxjs/rxjs_sum.md",
+          },
+        ],
       },
     ],
     sidebar: {
@@ -100,6 +83,18 @@ export default defineUserConfig({
         {
           text: "項目實戰",
           children: ["comprehend.md", "introduction.md"],
+        },
+      ],
+      "/nest/": [
+        {
+          text: "項目實戰",
+          children: ["config.md"],
+        },
+      ],
+      "/rxjs/": [
+        {
+          text: "rxjs1",
+          children: ["rxjs.md"],
         },
       ],
     },
