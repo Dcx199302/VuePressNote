@@ -5,6 +5,7 @@ export const angular_route = <RouteType>[
     text: "angular入門",
     link: "angular",
     children: [
+      { text: "基础常用", link: "/angular/basics/basics.md" },
       { text: "创建项目", link: "/angular/introduction.md" },
       { text: "常用", link: "/angular/basics.md" },
       { text: "理解angular", link: "/angular/comprehend.md" },
@@ -28,7 +29,6 @@ export const angular_sidebar: SidebarConfigType = {
         "allform.md",
         "angular.md",
         "Angular_init.md",
-        "basics.md",
         "cli.md",
         "comprehend.md",
         "demo.md",
@@ -43,6 +43,7 @@ export const angular_sidebar: SidebarConfigType = {
       ],
     },
   ],
+  "/angular/basics/": ["basics.md"],
   "/nest/": [{ text: "項目實戰", children: ["config.md"] }],
   "/rxjs/": [{ text: "rxjs1", children: ["rxjs.md"] }],
 };

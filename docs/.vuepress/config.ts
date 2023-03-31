@@ -4,7 +4,7 @@ import { backend_route, backend_sidebar } from "./routers/backend";
 
 export default defineUserConfig({
   lang: "zh-CN",
-  title: "VuePress !",
+  title: "xuchengdong",
   description: "这是我的第一个 VuePress 站点",
   head: [
     ["link", { rel: "icon", href: "/favicon.ico" }],
