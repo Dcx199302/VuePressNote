@@ -1,0 +1,1 @@
+import{_ as t,p as a,q as n,R as e,t as r}from"./framework-5866ffd3.js";const o={},c=e("h1",{id:"angular-入门",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#angular-入门","aria-hidden":"true"},"#"),r(" Angular 入门")],-1),s=[c];function _(d,i){return a(),n("div",null,s)}const u=t(o,[["render",_],["__file","introduction.html.vue"]]);export{u as default};

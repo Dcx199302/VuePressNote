@@ -3,6 +3,7 @@ import { angular_route, angular_sidebar } from "../.vuepress/routers/angular";
 import { backend_route, backend_sidebar } from "./routers/backend";
 
 export default defineUserConfig({
+  base: "/VuePressNote/",
   lang: "zh-CN",
   title: "xuchengdong",
   description: "这是我的第一个 VuePress 站点",

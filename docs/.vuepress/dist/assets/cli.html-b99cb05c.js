@@ -1,0 +1,1 @@
+const a=JSON.parse('{"key":"v-02e4663f","path":"/angular/cli.html","title":"angular ng CLI","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1680150456000,"contributors":[{"name":"Dcx199302","email":"61185183+Dcx199302@users.noreply.github.com","commits":1}]},"filePathRelative":"angular/cli.md"}');export{a as data};
