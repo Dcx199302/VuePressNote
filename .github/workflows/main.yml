@@ -52,8 +52,8 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
           script: |
-            cd /wwwroot/vuepress-note
+            cd /root/vuepress-note
             wget https://github.com/Dcx199302/VuePressNote/releases/latest/download/release.tgz -O release.tgz
             tar zxvf release.tgz
-            npm install --production
+            npm install
         #    pm2 reload pm2.config.json
