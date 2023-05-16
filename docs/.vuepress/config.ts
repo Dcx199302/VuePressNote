@@ -1,12 +1,13 @@
 import { defaultTheme, defineUserConfig } from "vuepress";
 import { angular_route, angular_sidebar } from "../.vuepress/routers/angular";
 import { backend_route, backend_sidebar } from "./routers/backend";
+import { server_route } from "./routers/myServer";
 
 export default defineUserConfig({
   base: "/VuePressNote/",
   lang: "zh-CN",
-  title: "xuchengdong",
-  description: "这是我的第一个 VuePress 站点",
+  title: "首页",
+  description: "跳转多个服务",
   head: [
     ["link", { rel: "icon", href: "/favicon.ico" }],
     [
@@ -20,14 +21,9 @@ export default defineUserConfig({
   theme: defaultTheme({
     navbar: [
       // 嵌套 Group - 最大深度为 2
-      {
-        text: "angular",
-        children: angular_route,
-      },
-      {
-        text: "BackEnd",
-        children: backend_route,
-      },
+      { text: "我的服务器", children: server_route },
+      { text: "angular", children: angular_route },
+      { text: "BackEnd", children: backend_route },
       // 控制元素何时被激活
       {
         text: "nestJS",
