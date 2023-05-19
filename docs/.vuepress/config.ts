@@ -4,7 +4,8 @@ import { backend_route, backend_sidebar } from "./routers/backend";
 import { server_route } from "./routers/myServer";
 
 export default defineUserConfig({
-  base: "/VuePressNote/",
+  // base: "/VuePressNote/",
+  base: "/",
   lang: "zh-CN",
   title: "前端技术X",
   description: "跳转多个服务",

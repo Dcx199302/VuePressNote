@@ -1,1 +1,0 @@
-const a=JSON.parse('{"key":"v-8eb3d4a0","path":"/angular.html","title":"Angular Pages","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1680147029000,"contributors":[{"name":"Dcx199302","email":"61185183+Dcx199302@users.noreply.github.com","commits":1}]},"filePathRelative":"angular.md"}');export{a as data};

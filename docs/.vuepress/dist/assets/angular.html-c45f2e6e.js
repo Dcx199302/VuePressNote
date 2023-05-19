@@ -1,1 +1,0 @@
-import{_ as a,p as r,q as t,R as e,t as n}from"./framework-5866ffd3.js";const s={},c=e("h1",{id:"angular-pages",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#angular-pages","aria-hidden":"true"},"#"),n(" Angular Pages")],-1),o=[c];function _(l,d){return r(),t("div",null,o)}const u=a(s,[["render",_],["__file","angular.html.vue"]]);export{u as default};
