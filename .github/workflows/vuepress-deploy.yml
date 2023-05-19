@@ -39,7 +39,7 @@ jobs:
 
       # 运行构建脚本
       - name: Build VuePress site
-        run: npm docs:build
+        run: npm run docs:build
 
       - name: copy file via ssh password
         uses: appleboy/scp-action@master
