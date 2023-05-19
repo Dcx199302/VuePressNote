@@ -1,1 +1,0 @@
-const t=JSON.parse('{"key":"v-74e26d39","path":"/angular/introduction.html","title":"Angular 入门","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1680150456000,"contributors":[{"name":"Dcx199302","email":"61185183+Dcx199302@users.noreply.github.com","commits":1}]},"filePathRelative":"angular/introduction.md"}');export{t as data};

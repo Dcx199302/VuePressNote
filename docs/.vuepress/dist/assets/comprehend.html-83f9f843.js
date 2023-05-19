@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-f6716e84","path":"/angular/comprehend.html","title":"理解 Angular","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1680150456000,"contributors":[{"name":"Dcx199302","email":"61185183+Dcx199302@users.noreply.github.com","commits":1}]},"filePathRelative":"angular/comprehend.md"}');export{e as data};

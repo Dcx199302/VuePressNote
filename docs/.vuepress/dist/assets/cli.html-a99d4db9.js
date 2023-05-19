@@ -1,1 +1,0 @@
-import{_ as a,p as t,q as c,R as e,t as n}from"./framework-5866ffd3.js";const r={},s=e("h1",{id:"angular-ng-cli",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#angular-ng-cli","aria-hidden":"true"},"#"),n(" angular ng CLI")],-1),l=[s];function o(_,i){return t(),c("div",null,l)}const h=a(r,[["render",o],["__file","cli.html.vue"]]);export{h as default};
