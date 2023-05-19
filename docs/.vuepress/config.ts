@@ -6,7 +6,7 @@ import { server_route } from "./routers/myServer";
 export default defineUserConfig({
   base: "/VuePressNote/",
   lang: "zh-CN",
-  title: "首页",
+  title: "前端技术X",
   description: "跳转多个服务",
   head: [
     ["link", { rel: "icon", href: "/favicon.ico" }],

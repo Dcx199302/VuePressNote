@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-8daa1a0e","path":"/","title":"Vue3","lang":"zh-CN","frontmatter":{"title":"Vue3"},"headers":[],"git":{"updatedTime":1680231376000,"contributors":[{"name":"Dcx199302","email":"61185183+Dcx199302@users.noreply.github.com","commits":3}]},"filePathRelative":"README.md"}');export{e as data};
