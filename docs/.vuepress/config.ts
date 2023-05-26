@@ -11,7 +11,7 @@ export default defineUserConfig({
   // base: "/VuePressNote/",
   base: "/",
   lang: "zh-CN",
-  title: "徐成东技术文档",
+  title: "前端技术x",
   // description: "跳转多个服务",
   head: [
     ["link", { rel: "icon", href: "/favicon.ico" }],
