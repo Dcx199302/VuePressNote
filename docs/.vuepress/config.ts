@@ -11,7 +11,7 @@ export default defineUserConfig({
   // base: "/VuePressNote/",
   base: "/",
   lang: "zh-CN",
-  title: "徐成东个人技术文档",
+  title: "徐成东技术文档",
   // description: "跳转多个服务",
   head: [
     ["link", { rel: "icon", href: "/favicon.ico" }],
@@ -33,6 +33,11 @@ export default defineUserConfig({
   theme: defaultTheme({
     navbar: [
       // 嵌套 Group - 最大深度为 2
+      {
+        text: "内置语法",
+        link: "内置语法.md",
+        // children: [],
+      },
       {
         text: "前端",
         children: [
@@ -72,16 +77,16 @@ export default defineUserConfig({
         text: "收藏夹",
         children: [
           {
-            text: "rxjs",
-            link: "/rxjs/rxjs.md",
+            text: "笔记类",
+            link: "/favorite/note",
           },
           {
-            text: "rxjs_operator",
-            link: "/rxjs/rxjs_operator.md",
+            text: "视频类",
+            link: "/favorite/video",
           },
           {
-            text: "rxjs",
-            link: "/rxjs/rxjs_sum.md",
+            text: "网站类",
+            link: "/favorite/web",
           },
         ],
       },

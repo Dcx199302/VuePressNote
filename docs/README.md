@@ -4,11 +4,12 @@ title: Home
 # heroImage: /images/hero.png
 actions:
   - text: 查看笔记
-    link: /guide/getting-started.html
+    link: /front-end/README.md
     type: primary
   - text: 查看项目
-    link: /guide/
+    link: /project/README.md
     type: secondary
+
 features:
   - title: 学历
     details: 男 1994年 函授 非计算机专业
@@ -25,45 +26,8 @@ features:
   - title: 经历
     details: 一家外包(6个月) 一家自研(12个月)
 
-  - title: 找工作
-    details: Default bundler is Vite, while Webpack is also supported. Choose the one you like!
+  - title: 目标
+    details: 挣钱 挣钱 挣钱 挣钱 挣钱
 ---
-
-[Hello myVuePress](angular)
-
-[Docsify 笔记](http://114.132.47.217:8080/#/)
-
-[购买的慕课网-Nest 入门到实战课程-Brian 老师-笔记](https://front-end.toimc.com/)
-
----
-
-:::: code-group
-::: code-group-item FOO
-
-```ts
-const foo = "foo";
-```
-
-:::
-::: code-group-item BAR
-
-```ts
-const bar = "bar";
-```
-
-:::
-::::
-
-::: danger STOP
-危险区域，禁止通行
-:::
-
-::: details 点击查看代码
-
-```ts
-console.log("你好，VuePress！");
-```
-
-:::
 
 <RecordFooter></RecordFooter>
