@@ -1,3 +1,0 @@
-# Angular Pages
-
-## Hello world
