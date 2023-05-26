@@ -23,7 +23,13 @@ export const backend_route = <RouteType>[
 ];
 
 export const backend_sidebar: SidebarConfigType = {
-  "/backend/": [
+  "/back-end/node/": [
+    {
+      text: "Node",
+      children: ["README.md", "hello.md"],
+    },
+  ],
+  "/back-end/docker/": [
     {
       text: "Docker",
       children: ["docker.md"],

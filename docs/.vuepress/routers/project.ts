@@ -1,6 +1,6 @@
 import { RouteType, SidebarConfigType } from "./type";
 
-export const server_route = <RouteType>[
+export const project_route = <RouteType>[
   {
     text: "我的服务器",
     link: "腾讯云服务器",
@@ -12,11 +12,11 @@ export const server_route = <RouteType>[
   },
 ];
 
-export const server_sidebar: SidebarConfigType = {
-  "/docsify/": [
-    {
-      text: "項目實戰",
-      children: ["allform.md", "angular.md"],
-    },
-  ],
-};
+// export const project_sidebar: SidebarConfigType = {
+//   "/docsify/": [
+//     {
+//       text: "項目實戰",
+//       children: ["allform.md", "angular.md"],
+//     },
+//   ],
+// };

@@ -29,24 +29,22 @@ export const angular_sidebar: SidebarConfigType = {
     },
     {
       text: "高级",
-      children: [],
+      children: ["interaction.md", "introduction.md", "merge.md"],
     },
     {
       text: "基础",
       children: [
-        "allform.md",
         "angular.md",
         "Angular_init.md",
         "cli.md",
         "comprehend.md",
         "demo.md",
+        "allform.md",
         "form.md",
         "hook.md",
-        "interaction.md",
-        "introduction.md",
-        "merge.md",
+
         "Preintermediate.md",
-        "README.md",
+        // "README.md",
         "router.md",
       ],
     },
